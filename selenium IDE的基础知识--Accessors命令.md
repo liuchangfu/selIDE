@@ -77,9 +77,11 @@
 
   （2）tableCellAddress：指向指定表中元素的选择器，格式为：tableLocator.row.column；
 
-  （3）Target-形式为“表格的定位表达式.行号.列号”，如“foo.1.4”；
+  （3）Target-形式为“表格的定位表达式.行号.列号”，如“foo.1.4”，foo代表表格的ID和Name；
 
   （4）对应方法：getTable()方法； 
+
+**注： 表格的行和列是第0行，第0列开始的**
 
 * **storeAttribute(attributeLocator,variableName)**
 
